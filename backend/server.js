@@ -26,7 +26,7 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/checkout", checkoutRoutes);
 
 app.get("/", (req, res) => {
-  res.send("✅ Nexora Full-Stack Assignment Backend Running...");
+  res.send("Nexora Full-Stack Assignment Backend Running...");
 });
 
 const PORT = process.env.PORT || 5000;
